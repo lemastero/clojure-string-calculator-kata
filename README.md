@@ -34,3 +34,8 @@ lein autoexpect
 7. Delimiters can be of any length with the following format:  "//[delimiter]\n" for example: "//[***]\n1***2***3" should return 6
 
 8. Allow multiple delimiters like this:  "//[delim1][delim2]\n" for example "//[*][%]\n1*2%3" should return 6. Make sure you can also handle multiple delimiters with length longer than one char
+
+More Katas:
+ * http://osherove.com/tdd-kata-2/
+ * https://github.com/garora/TDD-Katas
+ * http://codekata.com/
