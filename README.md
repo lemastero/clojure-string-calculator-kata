@@ -5,8 +5,14 @@ Based on [video Test-driving Clojure in Light Table by Misophistful](https://www
 ## Tools
  * Editor: [LightTable](http://lighttable.com/)
  * Generating build/generate template project: [Leiningen](http://leiningen.org/)
+```shell
+lein new string-calculator
+```
  * Testing framework [Expectations](http://jayfields.com/expectations/)
  * Automatically re-run tests after source changed: [lein-autoexpect](https://github.com/jakemcc/lein-autoexpect)
+```
+lein autoexpect
+```
 
 ## Kata description:
 1. Create a simple String calculator with a method int Add(string numbers) The method can take 0, 1 or 2 numbers, and will return their sum.
