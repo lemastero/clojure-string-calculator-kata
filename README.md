@@ -9,8 +9,11 @@ Based on [video Test-driving Clojure in Light Table by Misophistful](https://www
 lein new string-calculator
 ```
  * Testing framework [Expectations](http://jayfields.com/expectations/)
+ ```shell
+ lein do clean, test
+ ```
  * Automatically re-run tests after source changed: [lein-autoexpect](https://github.com/jakemcc/lein-autoexpect)
-```
+```shell
 lein autoexpect
 ```
 
