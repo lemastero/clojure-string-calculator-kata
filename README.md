@@ -16,6 +16,10 @@ lein new string-calculator
 ```shell
 lein autoexpect
 ```
+* Finding updates in dependencies using [lein-ancient](https://github.com/xsc/lein-ancient):
+```
+lein ancient :all
+```
 
 ## Kata description:
 1. Create a simple String calculator with a method int Add(string numbers) The method can take 0, 1 or 2 numbers, and will return their sum.
